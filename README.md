@@ -43,6 +43,7 @@ open "build/macos/Codex Cat.app"
 - Only appears when Codex is focused, with an `Always Show` menu toggle for
   testing.
 - Bounces off every edge of the overlay.
+- Shows a speech bubble with a random AI goblin pun when you click the cat.
 - Flips based on horizontal direction.
 - Uses a transparent 4-frame pixel cat sprite sheet.
 
