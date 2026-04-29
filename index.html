@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A tiny prototype for a pixel cat that walks around the Codex app window."
+    />
+    <title>Codex Cat Prototype</title>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="codex-window" aria-label="Codex app test boundary">
+        <header class="codex-titlebar">
+          <div class="traffic-lights" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>Codex Cat Test Harness</p>
+        </header>
+
+        <div class="codex-surface">
+          <div class="sidebar" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="editor" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div id="cat" class="cat" aria-label="Temporary cat rectangle">
+            <span class="cat-face"></span>
+            <span class="cat-feet"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
