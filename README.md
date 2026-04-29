@@ -4,6 +4,8 @@ A small open-source macOS companion app for a pixel cat that walks around Codex.
 The native app uses a transparent overlay so the cat can float above Codex
 without blocking clicks.
 
+https://github.com/user-attachments/assets/57c01192-d4dd-4314-99de-d61717879289
+
 ## Local Development
 
 ### Web Movement Harness
